@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: #000;
+    color: white;
+    scroll-behavior: smooth;
+    font-size: 13px
+}
+
+:root {
+    --secodary_bg: #121212
+    --tertiary_bg: #242424
+}
+
+.secodary_bg {
+    background: #121212
+}
+.tertiary_bg {
+    background: #242424
+}

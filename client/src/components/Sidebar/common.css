@@ -1,0 +1,36 @@
+.signup_bar {
+    background: linear-gradient(90deg, #af2896, #059bf5);
+    height: 3.5rem;
+    width: 99%;
+}
+
+.scale:hover {
+    scale: 1.05;
+    opacity: 0.9;
+}
+.active {
+    color: white;
+}
+.range {
+    width: 70%;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    -webkit-appearance: none;
+}
+.range:hover {
+    opacity: 1;
+}
+.rangehover:hover .range::-webkit-slider-thumb {
+}
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: #989898;
+    margin-top: -3.4px;
+}
+.range::-webkit-slider-runnable-track {
+    height: 2.5px;
+    background-color: rgb(77, 77, 77);
+}

@@ -1,0 +1,18 @@
+.block-ellipsis {
+    display: -webkit-box;
+    max-height: 3.2rem;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+    line-height: 1.3rem;
+}
+
+.play_btn {
+    display: none !important;
+}
+.card:hover .play_btn {
+    display: block !important;
+    transition: all 0.3s ease-in;
+}

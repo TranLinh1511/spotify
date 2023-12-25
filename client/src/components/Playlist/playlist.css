@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=Flow+Circular&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap");
+.bg_img {
+    background-image: url("../../assets/banner/test.jpg");
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    background-position: 0px -40px;
+}
+
+.font-family {
+    font-family: "Roboto", sans-serif;
+}
+td:first-child {
+    border-top-left-radius: 5px;
+}
+td:last-child {
+    border-top-right-radius: 5px;
+}
+
+td:first-child {
+    border-bottom-left-radius: 5px;
+}
+td:last-child {
+    border-bottom-right-radius: 5px;
+}
+.visibly:hover .play {
+    display: block;
+}
+.visibly:hover .hide {
+    display: none;
+}
+.play {
+    display: none;
+}
